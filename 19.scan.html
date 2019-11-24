@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,user-scalable: no,maximum-scale=1.0, minimum-scale=1.0">
+    <meta charset="UTF-8">
+    <title>扫一扫</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            list-style: none;
+        }
+
+        #box {
+            position: relative;
+            width: 100%;
+            height:100%;
+            background-color: #000;
+        }
+
+        #top {
+            width: 100%;
+            height: 0;
+            background-color: #fff;
+            box-sizing: border-box;
+            font-size: 20px;
+            line-height: 20px;
+            text-align: center;
+            position: relative;
+        }
+
+        #back {
+            display: inline-block;
+            width: 100%;
+            position: absolute;
+            top: 5%;
+            left: -40%;
+        }
+
+        #back a {
+            text-decoration: none;
+            color: black;
+
+            font-size: 40px;
+            line-height: 0;
+        }
+
+        #center {
+            width: 100%;
+            display: inline-block;
+            margin: 0 auto;
+            font-size: 25px;
+        }
+
+        #square {
+            width: 250px;
+            height: 260px;
+            position: relative;
+            top: 25%;
+            left: 50%;
+            margin-left: -125px;
+            background: url("img/scansquare.png") no-repeat;
+            background-size: 100%;
+        }
+
+        #line {
+            position: absolute;
+            width: 100%;
+            height: 7px;
+            background: url("img/scanline.png") no-repeat;
+            background-size: 100%;
+            top: 0;
+            animation: move 3s linear infinite;
+        }
+
+        #square p {
+            color:#999;
+            text-align: center;
+            position: absolute;
+            top: 260px;
+        }
+
+        @keyframes move {
+            from {
+                top: 0;
+            }
+            to {
+                top: 250px;
+            }
+        }
+    </style>
+</head>
+<body>
+<div id="box">
+    <div id="top">
+        <div id="center">
+            <p>扫一扫</p>
+        </div>
+        <div id="back"><a href="javascript:history.back(-1)"><</a></div>
+    </div>
+    <div id="square">
+        <div id="line"></div>
+        <p>将二维码放入框中，即可自动扫描</p>
+    </div>
+
+</div>
+<script>
+    window.onload = function () {
+        var box = document.getElementById('box');
+        var top = document.getElementById('top');
+        var height = document.documentElement.clientHeight;
+        var center = top.children[0];
+        var back = document.getElementById('back');
+        back.style.lineHeight = center.style.lineHeight = height * 0.1 + 'px';
+        box.style.height = height + 'px';
+        center.style.height = top.style.height = height * 0.1 + 'px';
+    }
+</script>
+</body>
+</html>

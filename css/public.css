@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    user-select:none;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.img {
+    width: 100%;
+    height: auto;
+
+}
+
+.top {
+    width: 100%;
+    height: 100px;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.logot .logo {
+    width: 65px;
+    height: 25px;
+    margin: 0 auto;
+}
+
+.logot .tool {
+    background: url("../img/tool.png") no-repeat;
+    background-size: 100%;
+    width: 75px;
+    height: 35px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    /*float: right;*/
+}
+
+.logot a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+}
+
+.choice {
+    width: 100%;
+    height: 45px;
+    margin-top: 20px;
+}
+
+.choice ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.choice ul li {
+    cursor: pointer;
+    font-size: 15px;
+    text-align: center;
+    line-height: 13px;
+
+}
+.choice ul li a{
+    color: #888;
+}
+.choice ul li img {
+    width: 18px;
+    height: 18px;
+}
+
+.show .commodity {
+    width: 100%;
+    /*height: 1050px;*/
+}
+
+.show .commodity ul li {
+    /*width: 145px;*/
+    /*height: 300px;*/
+    margin-left: 10%;
+    width: 35%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+
+.show .commodity ul li img {
+    width: 100%;
+    height: auto;
+
+}
+
+.navigation {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border: 3px solid rgb(243, 243, 243);
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.navigation ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.navigation ul li {
+    cursor: pointer;
+    height: 60px;
+    width: auto;
+    text-align: center;
+}
+
+
+.navigation ul li img {
+    height: 80%;
+}

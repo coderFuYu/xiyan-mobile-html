@@ -1,0 +1,141 @@
+body {
+    height: 780px;
+    -moz-user-select: none; /*火狐*/
+    -webkit-user-select: none; /*webkit浏览器*/
+    -ms-user-select: none; /*IE10*/
+    user-select: none;
+}
+
+.mid #receive {
+    overflow: hidden;
+    margin-top: 5px;
+    width: 100%;
+    height: 70px;
+    background-color: #fff;
+}
+
+.mid #receive .on {
+    display: inline-block;
+    width: 100%;
+    height: 20px;
+    margin-top: 10px;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.mid #receive .down {
+    width: 100%;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.mid #receive .down div {
+    display: inline-block;
+}
+
+.mid #receive .down .button1 {
+    height: 15px;
+    margin-top: 5px;
+    /*margin-left: 20px;*/
+    width: 15px;
+    background: url("../img/11.qrdd/circle.png");
+    background-size: 100%;
+    display: inline-block;
+    float: left;
+}
+
+.mid #receive .down div p {
+    margin-left: 5px;
+    display: inline-block;
+    font-size: 13px;
+}
+
+#z-index {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background-color: #cccccc;
+    opacity: 0.5;
+    z-index: 5;
+    top: 0;
+    display: none;
+}
+
+#select {
+    width: 90%;
+    height: 220px;
+    z-index: 10;
+    position: fixed;
+    bottom: 200px;
+    left: 5%;
+    background-color: white;
+    box-sizing: border-box;
+    display: none;
+}
+
+#select img {
+    width: 15px;
+    height: auto;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+#select .title {
+    margin-top: 15px;
+    font-size: 15px;
+    line-height: 30px;
+    margin-left: 20px;
+}
+
+#select .tip {
+    font-size: 12px;
+    color: #848484;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+#select ul {
+    float: left;
+}
+
+#select ul li {
+    margin-left: 20px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    padding: 0 10px;
+    /*width: 45%;*/
+    float: left;
+    font-size: 11px;
+    margin-top: 10px;
+    border: 1px solid #e8e8e8;
+}
+#select ul li input{
+    width: 100px;
+    border: none;
+    height: 100%;
+}
+#select .extra{
+    float: left;
+    margin-top: 10px;
+    margin-left: 5px;
+    line-height: 30px;
+    font-size: 13px;
+}
+
+#select #affirm {
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    text-align: center;
+    line-height: 25px;
+    background-color: #000000;
+    color: white;
+    bottom: 20px;
+    left: 50%;
+    margin-left: -25px;
+
+}

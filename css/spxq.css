@@ -1,0 +1,402 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    -moz-user-select: none; /*火狐*/
+    -webkit-user-select: none; /*webkit浏览器*/
+    -ms-user-select: none; /*IE10*/
+    user-select: none;
+}
+
+.box {
+    width: 100%;
+    height: 2220px;
+    padding: 0;
+}
+
+.top {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+}
+
+hr {
+    color: #f3f3f3;
+}
+
+.top .back {
+    width: 58px;
+    height: 18px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background: url("../img/back.png");
+    background-size: 100%;
+}
+
+.back a {
+    display: inline-block;
+    width: 29px;
+    height: 18px;
+    float: left;
+}
+
+.top .center {
+    width: 150px;
+    height: 35px;
+    margin: 20px auto;
+    text-align: center;
+    opacity: 0;
+}
+
+.top .center p:first-child {
+    font-size: 20px;
+    line-height: 20px;
+    color: #000;
+}
+
+.top .center p:last-child {
+    font-size: 15px;
+    line-height: 20px;
+    color: #787878;
+}
+
+.top .center img {
+    width: 100%;
+    height: auto;
+}
+
+.top .tool {
+    background: url("../img/tool.png") no-repeat;
+    background-size: 100%;
+    width: 75px;
+    height: 35px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.top .tool a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+.middle .p1 {
+    text-align: center;
+    font-size: 14px;
+}
+
+.middle .p1 p:first-child {
+    margin-top: 50px;
+    color: #d5b870;
+}
+
+.middle .p1 p:nth-child(2) {
+    font-size: 18px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.middle .p1 p:nth-child(3) {
+    margin-top: 5px;
+}
+
+.middle .p1 p:nth-child(4) {
+    margin-top: 10px;
+}
+
+.middle .p1 p:nth-child(5) {
+    margin-top: 5px;
+}
+
+.middle .p1 p:nth-child(6) {
+    margin-top: 30px;
+}
+
+.middle .p1 p:nth-child(7) {
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.middle .choice {
+    border-top: 2px solid #f3f3f3;
+    border-bottom: 2px solid #f3f3f3;
+    width: 100%;
+    height: 20px;
+    padding: 10px 0;
+}
+
+.middle .choice:nth-child(3) {
+    border-bottom: none;
+}
+
+.middle .choice .left {
+    float: left;
+    color: black;
+    margin-left: 20px;
+}
+
+.middle .choice .right {
+    float: right;
+    color: #7c7c7c;
+    margin-right: 20px;
+}
+
+.middle .choice a {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+}
+.p2{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.p2 h2{
+    font-weight: normal;
+    font-size: 16px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.p2 p{
+    font-size: 14px;
+    line-height: 30px;
+}
+.p2 span{
+    color: #898989;
+}
+.img {
+    width: 100%;
+    height: auto;
+}
+
+#add {
+    width: 100%;
+    height: 500px;
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+    background-color: #fff;
+    padding-top: 20px;
+    box-sizing: border-box;
+    display: none;
+}
+
+#add #choose #delete {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+#add #choose #already #photo {
+    margin: 0 10px;
+    width: 30%;
+    height: 150px;
+    float: left;
+}
+
+#add #choose #already #text {
+    width: 100%;
+    height: 160px;
+}
+
+#add #choose #already #text #p1 {
+    /*margin-top: 20px;*/
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#add #choose #already #text #p2 {
+    font-size: 15px;
+    line-height: 40px;
+}
+
+#add #choose #already #text .p3 {
+    color: #787878;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+#add #choose #already #text #s1 {
+    line-height: 40px;
+}
+
+#add #choose #already #text #s2 {
+    line-height: 40px;
+    color: #787878;
+}
+
+#add #choose #already #text #s3 {
+    line-height: 40px;
+    color: #787878;
+}
+
+
+#add #choose #choose_color {
+    width: 100%;
+    height: 134px;
+}
+
+#add #choose #choose_color span {
+    float: left;
+    margin: 15px 0 0 15px;
+}
+
+#add #choose #choose_color ul {
+    margin-left: 15%;
+}
+
+#add #choose #choose_color ul li {
+    float: left;
+    width: 40%;
+    height: 40px;
+    border: 1px solid #d7d7d7;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+#add #choose #choose_size {
+    width: 100%;
+    height: 67px;
+}
+
+#add #choose #choose_size span {
+    float: left;
+    margin: 15px 0 0 15px;
+}
+
+#add #choose #choose_size ul {
+    margin-left: 15%;
+}
+
+#add #choose #choose_size ul li {
+    float: left;
+    width: 17%;
+    height: 40px;
+    border: 1px solid #d7d7d7;
+    line-height: 40px;
+    text-align: center;
+    margin: 10px;
+    box-sizing: border-box;
+
+}
+
+#add #choose #choose_number {
+    width: 100%;
+    height: 67px;
+}
+
+#add #choose #choose_number span {
+    float: left;
+    margin: 15px 0 0 15px;
+}
+
+#add #choose #choose_number ul {
+    margin-left: 15%;
+}
+
+#add #choose #choose_number ul li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #d7d7d7;
+    line-height: 40px;
+    text-align: center;
+    margin-top: 10px;
+}
+
+#add #choose #choose_number ul li:first-child {
+    margin-left: 10px;
+}
+
+#add #footer2_queren {
+    width: 100%;
+    height: 50px;
+    background-color: #000;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+}
+
+.bottom {
+    height: 50px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+
+.bottom ul li {
+    box-sizing: border-box;
+    border-top: 2px solid #f0f0f0;
+    float: left;
+    position: relative;
+    background-color: #fff;
+}
+
+.bottom ul li:first-child {
+    width: 17%;
+    height: 50px;
+    border-right: 2px solid #f0f0f0;
+}
+
+.bottom ul li:nth-child(2) {
+    width: 17%;
+    height: 50px;
+    border-right: 2px solid #f0f0f0;
+    box-sizing: border-box;
+}
+
+.bottom ul li:nth-child(3) {
+    width: 33%;
+    height: 100%;
+    border-left: 1px #f0f0f0;
+    color: black;
+    box-sizing: border-box;
+    line-height: 50px;
+    text-align: center;
+}
+
+.bottom ul li:last-child {
+    width: 33%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    box-sizing: border-box;
+    line-height: 50px;
+    text-align: center;
+}
+
+.bottom ul #sell\ out {
+    width: 66%;
+    background-color: #787878;
+    color: #ffffff;
+}
+
+.bottom ul li img {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 50%;
+    top: 15px;
+    margin-left: -10px;
+}
+
+.bottom ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+#add_in_car {
+    color: white;
+}

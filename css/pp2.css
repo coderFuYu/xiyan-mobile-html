@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body{
+    -moz-user-select:none;/*火狐*/
+    -webkit-user-select:none;/*webkit浏览器*/
+    -ms-user-select:none;/*IE10*/
+    user-select:none;
+}
+.box {
+    width: 100%;
+    height: 1100px;
+    padding: 20px 10px;
+}
+
+.top {
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+.top .back {
+    width: 58px;
+    height: 18px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background: url("../img/back.png");
+    background-size: 100%;
+}
+
+.back a {
+    display: inline-block;
+    width: 29px;
+    height: 18px;
+    float: left;
+}
+
+.top .center {
+    width: 80px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.top .tool {
+    background: url("../img/toolpp2.png") no-repeat;
+    background-size: 100%;
+    width: 75px;
+    height: 35px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.top .tool a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+.show .commodity {
+    width: 100%;
+    height: 1050px;
+}
+
+.show .commodity ul li {
+    margin-left: 10%;
+    width: 35%;
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.show .commodity a{
+    display: inline-block;
+    width: 100%;
+    height: 50%;
+}
+.show .commodity ul li img {
+    width: 100%;
+    height: auto;
+
+}
+
+.box{
+    padding: 0;
+}
+.top{
+    width: 100%;
+}
+.top .center{
+    width: 100%;
+}
+.top .center img{
+    width: 100%;
+    height: auto;
+}

@@ -1,0 +1,65 @@
+.header{
+    width: 100%;
+    height: 250px;
+    background: url("../img/13.dl/Group.png") no-repeat center;
+    background-size: cover;
+}
+.header .header-1{
+    width: 100%;
+    height: 250px;
+    position: relative;
+    /*background-color: pink;*/
+}
+.header .header-1 img:nth-child(3){
+    position: absolute;
+    right: 15px;
+    top: 20px;
+    width: 80px;
+}
+.header .header-1 img:nth-child(4){
+    position: absolute;
+    right: 110px;
+    top: 23px;
+    width: 30px;
+
+}
+.header .header-1 .touxiang{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: pink;
+    position: absolute;
+    left: 30px;
+    top: 40px;
+    box-shadow: 0 0 5px white;
+    overflow: hidden;
+}
+.header .header-1 .touxiang img{
+    width: 50px;
+}
+.header .header-1 #daka{
+    text-align: left;
+    width: 55%;
+    height: 60px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 40px;
+    left: 100px;
+    border: none;
+}
+.header .header-1 #daka a{
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    text-decoration: none;
+    color: #000;
+}
+.header .header-1 #daka h2{
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+.header .header-1 #daka span{
+    font-size: 10px;
+
+
+}

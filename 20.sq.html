@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>商品详情</title>
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,user-scalable: no,maximum-scale=1.0, minimum-scale=1.0">
+    <link rel="stylesheet" href="css/spxq.css">
+</head>
+<body>
+<div class="box">
+    <div class="top">
+        <div class="back"><a href="javascript:history.back(-1)"></a><a href="1.tj.html"></a></div>
+        <div class="center" id="center">
+            <p>FENDI</p>
+            <p>￥1314.00(含税价)</p>
+        </div>
+        <div class="tool"><a href="javascript:;"></a><a href="javascript:;"></a></div>
+    </div>
+    <div class="middle">
+        <img src="img/9.spxq/1.png" alt="" class="img">
+        <div class="p1"><p>新季</p>
+            <p>FENDI</p>
+            <p>女士休闲系列星空印花半身长裙</p>
+            <p>￥12104.00+1000颜值（颜粉专享价，含税）</p>
+            <p>￥13104.00（含税价）</p>
+            <p>欧洲零售价€120.00&nbsp中国零售价：￥2400.00</p>
+            <p>戏颜官方欧洲代采及服务费用：￥1314.00</p>
+        </div>
+        <div class="choice">
+            <a href="javascript:void (0);">
+                <p class="left">我的颜值</p>
+                <p class="right">2000 &nbsp&gt</p>
+            </a>
+        </div>
+
+        <div class="choice">
+            <a href="javascript:void (0);">
+                <p class="left">已选</p>
+                <p class="right"><span id="span1">颜色</span> &nbsp <span id="span2">尺寸</span>&nbsp&gt</p>
+            </a>
+        </div>
+        <div class="p2">
+            <h2>商品描述</h2>
+            <p>本款长裙由西班牙插画师绘制了星空图案，运用童趣的首发表达星空、火箭、太空生物以及星空的神秘感。涂鸦、随性的绘画风格表达了对太空、未来、星际旅行的美好向往、硬挺的面料使单品更加立体。</p>
+            <p>同色系衬里</p>
+            <p>85%羊毛，15%真丝</p>
+            <p>长度：85厘米</p>
+            <p>意大利制造</p>
+            <p><span>商品编号&nbsp&nbsp&nbsp&nbsp</span>911M15X1162_X9000</p>
+            <p><span>订购确认&nbsp&nbsp&nbsp&nbsp</span>欧洲货源地0-2个工作日确认</p>
+            <p><span>物流信息&nbsp&nbsp&nbsp&nbsp</span>上海清关，15-20个工作日送达（因清关时间不定，一些包裹可能会在预期时间后达到</p>
+            <p><span>运费信息&nbsp&nbsp&nbsp&nbsp</span>满3000元免运费，不足300运费299元</p>
+        </div>
+        <div class="choice">
+            <a href="javascript:void (0);">
+                <div class="left">用户晒单</div>
+                <div class="right">2&nbsp&gt</div>
+            </a>
+        </div>
+        <img class="img" src="img/9.spxq/3.png" alt="">
+    </div>
+    <div id="add">
+        <div id="choose">
+            <img src="img/9.spxq/shanchu.png" alt="" id="delete">
+            <div id="already">
+                <img src="img/9.spxq/querenjiaru-tu.png" alt="" id="photo">
+                <div id="text">
+                    <p id="p1">FENDI</p>
+                    <p id="p2">女士年轻休闲系列星空印花半身长裙</p>
+                    <p class="p3">￥1214.00+1000颜值（颜粉专享价，含税）</p>
+                    <p class="p3">￥1314.00（含税价）</p>
+                    <span id="s1">已选择</span>
+                    <span id="s2">颜色1</span>
+                    <span id="s3">尺码</span>
+                </div>
+            </div>
+            <div id="choose_color">
+                <span>颜色</span>
+                <ul id="ul1">
+                    <li>藏青色</li>
+                    <li>玫瑰灰粉色</li>
+                    <li>浅棕色</li>
+                </ul>
+            </div>
+            <div id="choose_size">
+                <span>尺寸</span>
+                <ul id="ul2">
+                    <li>S</li>
+                    <li>M</li>
+                    <li>L</li>
+                    <li>XL</li>
+                </ul>
+            </div>
+            <div id="choose_number">
+                <span>数量</span>
+                <ul id="ul3">
+                    <li>-</li>
+                    <li>1</li>
+                    <li>+</li>
+                </ul>
+            </div>
+        </div>
+        <div id="footer2_queren">确认加入</div>
+    </div>
+    <div class="bottom">
+        <ul>
+            <li><img src="img/9.spxq/icon1.png" alt=""></li>
+            <li><img src="img/9.spxq/icon2.png" alt=""></li>
+            <li id="sell out">已售罄</li>
+        </ul>
+    </div>
+</div>
+<script>
+    window.onscroll = function () {//顶部渐变显现
+    var height = document.documentElement.scrollTop;
+    if (height < 400) {
+        center.style.opacity = height / 400;
+    } else {
+        center.style.opacity = 1;
+    }
+};</script>
+</body>
+</html>

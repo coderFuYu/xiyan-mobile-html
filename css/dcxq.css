@@ -1,0 +1,147 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background-color: #f3f3f3;
+}
+
+.top {
+    z-index: 2;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    top: 0;
+}
+
+.top .center {
+    width: 300px;
+    height: 35px;
+    line-height: 35px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.top .center p {
+    font-size: 17px;
+    line-height: 30px;
+    color: #000;
+}
+
+.top .tool {
+    background: url("../img/tool.png") no-repeat;
+    background-size: 100%;
+    width: 75px;
+    height: 35px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.top .tool a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+.mid {
+    margin-top: 72px;
+}
+
+.mid .dis {
+    width: 100%;
+    height: 250px;
+    background-color: #fff;
+    box-sizing: border-box;
+}
+
+.mid textarea {
+    width: 90%;
+    margin-left: 20px;
+    height: 90px;
+    border: none;
+    margin-top: 20px;
+}
+
+.mid p {
+    margin-left: 20px;
+}
+
+.mid img {
+    width: 80px;
+    height: auto;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.mid .contact{
+    width: 100%;
+    height: 175px;
+    background-color: #fff;
+    margin-top: 2px;
+}
+.mid .contact p{
+    margin-top: 10px;
+    float: left;
+}
+.mid .contact p:last-child{
+    font-size: 13px;
+}
+.mid .contact input{
+    margin-left: 20px;
+    width: 80%;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 7px;
+    float: left;
+}
+.mid a{
+    color: #767676;
+    text-decoration: none;
+    font-size: 12px;
+    margin-left: 20px;
+}
+#submit{
+    width: 180px;
+    height: 40px;
+    margin: 30px auto;
+    background-color: #000000;
+    color: #ffffff;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 3px;
+}
+.bottom {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border: 3px solid rgb(243, 243, 243);
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.bottom ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+
+.bottom ul li {
+    cursor: pointer;
+    height: 60px;
+    width: auto;
+    text-align: center;
+}
+
+
+.bottom ul li img {
+    height: 80%;
+}

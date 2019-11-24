@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    -moz-user-select: none; /*火狐*/
+    -webkit-user-select: none; /*webkit浏览器*/
+    -ms-user-select: none; /*IE10*/
+    user-select: none;
+}
+
+.top {
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    height: 70px;
+    top: 0;
+}
+
+.top .back {
+    width: 58px;
+    height: 18px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background: url("../img/back.png");
+    background-size: 100%;
+}
+
+.back a {
+    display: inline-block;
+    width: 29px;
+    height: 18px;
+    float: left;
+}
+
+.top .center {
+    width: 300px;
+    height: 35px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.top .center p {
+    font-size: 20px;
+}
+
+.top .tool {
+    background: url("../img/tool.png") no-repeat;
+    background-size: 100%;
+    width: 75px;
+    height: 35px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.top .tool a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+#input_box {
+    margin-top: 75px;
+    width: 100%;
+    height: 40px;
+    /*padding-left: 20px;*/
+}
+
+#input_box .gray {
+    width: 80%;
+    height: 100%;
+    background-color: #f6f6f6;
+    margin-left: 20px;
+    float: left;
+}
+
+#input_box .gray .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin: 10px;
+    background-image: url("../img/search2.png");
+    background-size: 100%;
+    float: left;
+}
+
+#input_box .gray input {
+    height: 40px;
+    width: 180px;
+    border: none;
+    background-color: #f6f6f6;
+    line-height: 40px;
+}
+
+#input_box a {
+    text-decoration: none;
+    color: #000;
+    line-height: 40px;
+    margin-left: 10px;
+}
+
+#least_search {
+    width: 100%;
+    margin-top: 50px;
+}
+
+#least_search .on {
+    width: 100%;
+    height: 20px;
+}
+
+#least_search p {
+    margin-left: 20px;
+    font-size: 14px;
+    line-height: 20px;
+    display: inline-block;
+}
+
+#least_search #clear {
+    width: 18px;
+    height: 18px;
+    background-image: url(../img/clear.png);
+    background-size: 100%;
+    margin-top: 1px;
+    float: right;
+    margin-right: 30px;
+}
+
+#least_search .down {
+    width: 100%;
+    height: 130px;
+    overflow: hidden;
+    position: relative;
+}
+
+#least_search .down ul li {
+    background-color: #f6f6f6;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+#least_search .down ul li a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    color: #000;
+
+}
+#more{
+display: none;
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/more.png);
+    background-size: cover;
+    position: absolute;
+    top: 290px;
+    right: 20px;
+}
+#least_search .down ul #block {
+    width: 20px;
+    background-color: #ffffff;
+    /*background-image: url(../img/more.png);*/
+    /*background-size: cover;*/
+    /*opacity: 0;*/
+}
+
+#least_search .down ul #back {
+    width: 10px;
+    height: 10px;
+    background-image: url(../img/search-back.png);
+    background-size: cover;
+    display: none;
+    position: relative;
+    top: 7px;
+    /*opacity: 0;*/
+    margin-top: 20px;
+}

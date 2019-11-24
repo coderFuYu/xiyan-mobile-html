@@ -1,0 +1,213 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    -moz-user-select: none; /*火狐*/
+    -webkit-user-select: none; /*webkit浏览器*/
+    -ms-user-select: none; /*IE10*/
+    user-select: none;
+    background-color: #f3f3f3;
+}
+
+.top {
+    width: 100%;
+    height: 100px;
+    position: fixed;
+    background-color: #fff;
+    top: 0;
+    z-index: 3;
+}
+
+.top .head {
+    width: 100%;
+    height: 45px;
+}
+
+.top .back {
+    width: 58px;
+    height: 18px;
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    background: url("../img/back.png");
+    background-size: 100%;
+}
+
+.top .back a {
+    display: inline-block;
+    width: 29px;
+    height: 18px;
+    float: left;
+}
+
+.top .center {
+    width: 80px;
+    height: 35px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.top .center p:first-child {
+    font-size: 20px;
+    line-height: 35px;
+    color: #000;
+}
+
+
+.top .tool {
+    background: url("../img/tool.png") no-repeat;
+    filter: alpha(opacity=50);
+    background-size: 100%;
+    width: 75px;
+    height: 35px;
+    position: absolute;
+    top: 25px;
+    right: 20px;
+}
+
+.top .tool a {
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    float: left;
+}
+
+.top .bottom {
+    width: 100%;
+    height: 30px;
+}
+
+.top .bottom ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.top .bottom a {
+    text-decoration: none;
+    color: #9f9f9f;
+    font-size: 13px;
+}
+
+.top .bottom li:first-child a {
+    border-bottom: 2px solid black;
+    color: #000;
+    font-size: 17px;
+    padding-bottom: 8px;
+}
+
+.commodity {
+    margin-top: 105px;
+}
+
+.commodity ul li {
+    width: 100%;
+    height: 150px;
+    background-color: #fff;
+    margin-top: 5px;
+}
+
+.commodity ul li .on {
+    width: 100%;
+    height: 30px;
+}
+
+.commodity ul li .on .time {
+    font-size: 13px;
+    float: left;
+    display: inline-block;
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.commodity ul li .on .state {
+    font-size: 13px;
+    float: right;
+    display: inline-block;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.commodity ul li .center {
+    width: 100%;
+    height: 80px;
+    background-color: #f8f8f8;
+}
+.commodity ul li .center a{
+    display: inline-block;
+    width: 100%;
+    height: 80px;
+    text-decoration: none;
+    color: #000;
+}
+.commodity ul li .center img {
+    width: 60px;
+    height: 60px;
+    float: left;
+    margin: 10px 0 10px 20px;
+}
+.commodity ul li:first-child .on span{
+    color: #ea4509;
+}
+
+.commodity ul li:first-child .center .left {
+    display: inline-block;
+    width: 25%;
+    height: 80px;
+    float: left;
+}
+
+.commodity ul li:first-child .center .right {
+    display: inline-block;
+    width: 75%;
+    float: right;
+}
+
+.commodity ul li:first-child .center p {
+    margin: 10px 10px;
+    font-size: 13px;
+    float: left;
+}
+.commodity ul li:nth-child(4) .on span{
+    color: #999;
+}.commodity ul li:nth-child(5) .on span{
+    color: #999;
+}
+.commodity ul li .bottom p{
+    display: inline-block;
+    float: left;
+    margin-left: 20px;
+    font-size: 13px;
+    line-height: 30px;
+
+}
+.commodity ul li .bottom div{
+    border: 1px solid #3c3c3c;
+    width: 70px;
+    height: 24px;
+    border-radius: 12px;
+    float: right;
+    margin-right: 10px;
+    text-align: center;
+    line-height: 24px;
+    font-size: 13px;
+    /*margin-top: 5px;*/
+}
+.commodity ul li .bottom .pay{
+    border: 1px solid #ea4509;
+    color: #ea4509;
+}
+.commodity ul li:last-child .center{
+    background-image: url(../img/14.qbdd/bg.png);
+    background-size: cover;
+    padding-left: 20px;
+    line-height: 80px;
+    font-size: 20px;
+}
+.commodity ul li:last-child .bottom p:last-child{
+    float: right;
+    margin-right: 20px;
+}
