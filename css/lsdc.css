@@ -46,7 +46,7 @@ body {
 }
 
 .top .tool {
-    background: url("../img/tool.png") no-repeat;
+    background: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/xiyan/tool.png") no-repeat;
     background-size: 100%;
     width: 75px;
     height: 35px;

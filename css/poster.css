@@ -20,7 +20,7 @@ body{
 #close {
     width: 100%;
     height: 7%;
-    background: url("../img/cancel.png") no-repeat right top;
+    background: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/xiyan/cancel.png") no-repeat right top;
 }
 
 #pic {

@@ -25,7 +25,7 @@ body {
     position: absolute;
     top: 30px;
     left: 10px;
-    background: url("../img/back.png");
+    background: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/xiyan/back.png");
     background-size: 100%;
 }
 
@@ -48,7 +48,7 @@ body {
 }
 
 .top .tool {
-    background: url("../img/tool.png") no-repeat;
+    background: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/xiyan/tool.png") no-repeat;
     background-size: 100%;
     width: 75px;
     height: 35px;
@@ -84,7 +84,7 @@ body {
     width: 20px;
     height: 20px;
     margin: 10px;
-    background-image: url("../img/search2.png");
+    background-image: url("https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/xiyan/search2.png");
     background-size: 100%;
     float: left;
 }
@@ -124,7 +124,7 @@ body {
 #least_search #clear {
     width: 18px;
     height: 18px;
-    background-image: url(../img/clear.png);
+    background-image: url(https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/xiyan/clear.png);
     background-size: 100%;
     margin-top: 1px;
     float: right;
@@ -159,7 +159,7 @@ body {
 display: none;
     width: 20px;
     height: 20px;
-    background-image: url(../img/more.png);
+    background-image: url(https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/xiyan/more.png);
     background-size: cover;
     position: absolute;
     top: 290px;
@@ -168,7 +168,7 @@ display: none;
 #least_search .down ul #block {
     width: 20px;
     background-color: #ffffff;
-    /*background-image: url(../img/more.png);*/
+    /*background-image: url(https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/xiyan/more.png);*/
     /*background-size: cover;*/
     /*opacity: 0;*/
 }
@@ -176,7 +176,7 @@ display: none;
 #least_search .down ul #back {
     width: 10px;
     height: 10px;
-    background-image: url(../img/search-back.png);
+    background-image: url(https://fycoder.oss-cn-hangzhou.aliyuncs.com/web/xiyan/search-back.png);
     background-size: cover;
     display: none;
     position: relative;
